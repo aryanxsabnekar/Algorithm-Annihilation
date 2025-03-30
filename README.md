@@ -1,6 +1,6 @@
 About This Project:
 
-This project is a downloadable fighting game that learns from your play style and changes its strategy to challenge you as you play. Developed for the Fall 2025 PSU Hackathon by Aryan Sabnekar, Suraj Prem Chandran, Leona Chen, and Ayden Alex, it combines classic fighting game mechanics with machine learning to create an ever-evolving AI opponent.
+This project is a downloadable fighting game that learns from your play style and changes its strategy to challenge you as you play. Developed for the Fall 2025 PSU Hackathon by Aryan Sabnekar, Suraj Prem Chandran, and Ayden Alex, it combines classic fighting game mechanics with machine learning to create an ever-evolving AI opponent.
 
 How It Works:
 As you play, the game logs your behavior—tracking movement, attacks, and overall strategy. This data trains an AI model (using a decision tree classifier) that adapts its tactics over time, learning how to counter your unique play style.
@@ -14,6 +14,8 @@ pygame for game development and rendering.
 OpenCV for image processing.
 scikit-learn for the adaptive AI model.
 pandas and matplotlib for data analysis and visualization.
+
+Credit for the original game and visuals goes to Aaditya Panda (https://github.com/AadityaPanda/Street_Fighter). 
 
 Feel free to explore the repository, try out the game, and see how the AI adapts to beat your playstyle. 
 
